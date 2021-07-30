@@ -21,3 +21,7 @@ module "server2" {
 output "IP" {
  value = module.server2.PUBLIC_IP
 }
+
+output "hello" {
+ value = "hello"
+}

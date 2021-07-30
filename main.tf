@@ -18,7 +18,7 @@ module "server2" {
     bucket = "gagandeep-bucket-44"
 }
 
-output "IP" {
+output "IP2" {
  value = module.server2.PUBLIC_IP
 }
 
